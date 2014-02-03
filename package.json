@@ -1,6 +1,6 @@
 {
   "name": "symbols",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "String/symbols related helpers",
   "main": "src/helpers.js",
   "scripts": {

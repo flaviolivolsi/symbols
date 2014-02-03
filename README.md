@@ -11,8 +11,26 @@ Set of symbol-related helpers
 ```javascript
 var symbols = require('symbols');
 
-symbols.is_vovel('e');     // true
-symbols.is_consonant('w'); // true
+// eyuioa
+symbols.is_vovel(sym);
+
+// qwrtpasdfghjklmnbvcxz
+symbols.is_consonant(sym);
+
+// {}()[]<>
+symbols.is_bracket(sym);
+
+// {([<
+symbols.is_open_bracket(sym);
+
+// })]>
+symbols.is_close_bracket(sym);
+
+// 0123456789
+symbols.is_digit(sym);
+
+// ,.!;:-?
+symbols.is_punctuation(sym);
 ```
 
 ## License
