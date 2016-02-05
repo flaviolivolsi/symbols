@@ -1,4 +1,4 @@
-var vovels = 'eyuioa';
+var vovels = 'eyuioaèéýÿùúūûìíîïīòöøōàáâãä';
 module.exports.is_vovel = function(sym) {
 	return vovels.indexOf(sym.toLowerCase()) !== -1;
 };
