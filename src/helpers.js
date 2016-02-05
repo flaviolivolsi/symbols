@@ -1,6 +1,6 @@
-var vovels = 'eyuioaèéýÿùúūûìíîïīòöøōàáâãä';
-module.exports.is_vovel = function(sym) {
-	return vovels.indexOf(sym.toLowerCase()) !== -1;
+var vowels = 'eyuioaèéýÿùúūûìíîïīòöøōàáâãä';
+module.exports.is_vowel = function(sym) {
+	return vowels.indexOf(sym.toLowerCase()) !== -1;
 };
 
 var consonants = 'qwrtpasdfghjklmnbvcxz';
